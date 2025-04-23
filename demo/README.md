@@ -12,12 +12,19 @@ Este proyecto es una aplicación web desarrollada con **Spring Boot**. Además, 
 ## Estructura del Proyecto
 
 Proyecto SpringBoot/
+
 ├── pom.xml                      # Configuración de dependencias de Maven
+
 ├── README.md                    # Documentación principal del proyecto
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/
+
 │   │   │   └── com/
+
 │   │   │       └── example/
 │   │   │           └── demo/    # Paquete principal de la aplicación
 │   │   │               ├── config/       # Configuraciones de configuración de la aplicación
