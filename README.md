@@ -14,9 +14,7 @@ Este proyecto es una aplicación web desarrollada con **Spring Boot**. Además, 
 Proyecto SpringBoot/
 
 ├── pom.xml                      # Configuración de dependencias de Maven
-
 ├── README.md                    # Documentación principal del proyecto
-
 ├── src/
 
 │   ├── main/
