@@ -26,30 +26,55 @@ Proyecto SpringBoot/
 │   │   │   └── com/
 
 │   │   │       └── example/
+
 │   │   │           └── demo/    # Paquete principal de la aplicación
+
 │   │   │               ├── config/       # Configuraciones de configuración de la aplicación
+
 │   │   │               ├── controller/   # Controladores REST
+
 │   │   │               ├── model/        # Entidades y DTOs
+
 │   │   │               ├── repository/   # Interfaces de repositorio (JPA)
+
 │   │   │               ├── service/      # Lógica de negocio
+
 │   │   │               ├── util/         # Utilidades y helpers
+
 │   │   │               └── DemoApplication.java  # Clase main
+
 │   │   └── resources/
+
 │   │       ├── static/          # Recursos estáticos
+
 │   │       │   ├── css/         # Hojas de estilo
+
 │   │       │   ├── js/          # JavaScript
+
 │   │       │   └── images/      # Imágenes
+
 │   │       ├── templates/       # Vistas Thymeleaf
+
 │   │       ├── application.properties  # Config principal
+
 │   │       └── application-{profile}.properties  # Configs por entorno
+
 │   └── test/
+
 │       └── java/
+
 │           └── com/
+
 │               └── example/
+
 │                   └── demo/    # Pruebas unitarias e integración
+
 │                       ├── controller/
+
 │                       ├── service/
+
 │                       └── integration/  # Pruebas de integración con APIGEE
+
 └── target/                   # Artefactos generados (ignorar en control de versiones)
 
 
